@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+}
+
+.control-row label {
+  flex-basis: 200px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.control-row input[type="range"] {
+  flex-grow: 1;
+}
+
+.control-row span {
+  width: 60px;
+  text-align: right;
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
